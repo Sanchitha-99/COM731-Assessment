@@ -31,7 +31,7 @@ def load_csv_file():
             print(f"File does not exist: {e}")
 
 # ------------------------------
-# Task c1: Filter and display data based on card category
+# Task A1: Filter and display data based on card category
 # ------------------------------
 def filter_by_card_category(csv_list):
     print("\nRetrieve client number, gender, education level, and income based on card category.")
@@ -71,7 +71,7 @@ def filter_by_card_category(csv_list):
             return
 
 # ------------------------------
-# Task c2: Filter and display data based on state
+# Task A2: Filter and display data based on state
 # ------------------------------
 def filter_by_state(csv_list):
     print("\nRetrieve the age, gender, income, and credit card category of customers based on state of residence.")
@@ -102,7 +102,7 @@ def filter_by_state(csv_list):
             return
 
 # ------------------------------
-# Task c3: Filter by marital status and number of dependents
+# Task A3: Filter by marital status and number of dependents
 # ------------------------------
 def filter_by_marital_and_dependents(csv_list):
     print("\nRetrieve age, gender, education level, and job of customers based on marital status and dependents.")
@@ -142,7 +142,7 @@ def filter_by_marital_and_dependents(csv_list):
             return
             
 # ------------------------------
-# Task c4: Filter based on loan status and age above 25
+# Task A4: Filter based on loan status and age above 25
 # ------------------------------
 def filter_by_loan_and_age(csv_list):
     print("\nRetrieve the job, income, car ownership, and gender of customers older than 25 based on loan status.")
